@@ -1,4 +1,3 @@
-import enemy.Enemy;
 import enemy.Orc;
 import enemy.Troll;
 import org.junit.Before;
@@ -27,6 +26,11 @@ public class EnemyTest {
     public void orcCanTakeDamage() {
         orc.takeDamage(5);
         assertEquals(20, orc.getHealthPoints());
+    }
+
+    @Test
+    public void trollCanAttack() {
+        troll.attack();
     }
 
 }

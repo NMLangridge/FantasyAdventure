@@ -18,4 +18,8 @@ public abstract class Player {
         return this.healthPoints;
     }
 
+    public void takeDamage(int damage) {
+        this.healthPoints -= damage;
+    }
+
 }

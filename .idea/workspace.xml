@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d73b41-80cb-4460-b70d-aee0254c7eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemy/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemy/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Barbarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Troll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EnemyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +47,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +63,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnemyTest.orcCanTakeDamage">
+  <component name="RunManager" selected="JUnit.All in Fantasy Adventure Lab">
+    <configuration name="All in Fantasy Adventure Lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Adventure Lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EnemyTest.canTakeDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy Adventure Lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Fantasy Adventure Lab" />
         <item itemvalue="JUnit.EnemyTest.orcCanTakeDamage" />
         <item itemvalue="JUnit.EnemyTest.canTakeDamage" />
       </list>
