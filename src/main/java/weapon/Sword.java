@@ -2,10 +2,10 @@ package weapon;
 
 public class Sword extends Weapon {
 
-    public int damage;
+    private int damage;
 
     public Sword(int damage) {
-        super(damage);
+        super(30);
     }
 
 }

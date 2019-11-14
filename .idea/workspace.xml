@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d73b41-80cb-4460-b70d-aee0254c7eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/player/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/player/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapon/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IHeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heal/Heal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heal/Herb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heal/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Cleric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemy/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemy/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/player/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/player/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapon/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapon/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapon/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapon/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/weapon/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapon/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EnemyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enemy/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EnemyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EnemyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +68,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Fantasy Adventure Lab">
+  <component name="RunManager" selected="JUnit.EnemyTest.trollCanAttack">
     <configuration name="All in Fantasy Adventure Lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fantasy Adventure Lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnemyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Adventure Lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnemyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,8 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnemyTest.trollCanAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Adventure Lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnemyTest" />
+      <option name="METHOD_NAME" value="trollCanAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnemyTest.trollCanAttack" />
+        <item itemvalue="JUnit.EnemyTest" />
         <item itemvalue="JUnit.All in Fantasy Adventure Lab" />
         <item itemvalue="JUnit.EnemyTest.orcCanTakeDamage" />
         <item itemvalue="JUnit.EnemyTest.canTakeDamage" />

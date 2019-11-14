@@ -6,12 +6,10 @@ import weapon.Weapon;
 
 public abstract class Fighter extends Player implements IWeapon {
 
-    private int healthPoints;
     private Weapon weapon;
 
     public Fighter(String name) {
         super(name);
-        this.healthPoints = 100;
         this.weapon = null;
     }
 
